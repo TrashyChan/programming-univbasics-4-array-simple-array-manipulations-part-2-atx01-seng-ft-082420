@@ -3,7 +3,7 @@ def using_concat(my_favorite_things, all_my_favs)
 end
 
 def using_insert(array)
-  array.insert(4, element)
+  array.insert(3, element)
 end
 
 def using_uniq(array)
@@ -15,5 +15,5 @@ def using_flatten(array)
 end
 
 def using_flatten(array, integer)
-  
+  array.delete_at|2|
 end
