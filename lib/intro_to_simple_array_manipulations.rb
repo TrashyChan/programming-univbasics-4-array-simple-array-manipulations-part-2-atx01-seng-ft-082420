@@ -14,7 +14,7 @@ def using_flatten(array)
   array.flatten
 end
 
-def using_delete(instructors)
+def using_delete(instructors, no_offense_steve)
   instructors.delete("Steven")
 end
 
